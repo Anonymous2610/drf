@@ -1,5 +1,5 @@
-Part 1
-=============
+USEFULL COMMANDS=====
+Part 1 and 2
 py manage.py makemigrations --dry-run --verbosity 3
 py manage.py runserver
 py manage.py createsuperuser 
@@ -10,5 +10,3 @@ pip install djangorestframework
 =============
 Part 3
 pip install djangorestframework-simplejwt
-
-$ curl -X POST -d "email=a@a.com&password=aa610153" http://localhost:8000/api/token/
